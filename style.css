@@ -150,7 +150,6 @@ span{
 }
 .about-gri{
     display:grid;
-    /* grid-template-columns: repeat(auto-fit,minmax(250px,auto)); */
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1rem;
@@ -165,11 +164,6 @@ span{
     width: 100%;
     max-width: 460px;
 }
-
-/* resume section */
-/* .resume {
-    padding: 50px 0; 
-} */
 .resume-text{
     text-align: center;
     margin-bottom: 30px;
@@ -303,23 +297,6 @@ span{
     cursor: pointer;
 }
 
-  /* .row .layer{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.1),#ff004f);
-    position: absolute;
-    border-radius: 8px;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 40px;
-    transition: height 0.5s;
-} */
 .layer h6{
    color: var(--main-color);
     font-size: 20px;
